@@ -1,8 +1,15 @@
-# bookbot
+# BookBot in Python
 
 BookBot is my first [Boot.dev](https://www.boot.dev) project!
 
 BookBot is a command-line Python program that analyzes a text file and reports the total word count and character frequency.
+
+## Certificate
+
+<p align="center">
+  <img width="832" height="508" alt="Boot.dev Certificate" src="https://github.com/user-attachments/assets/6febac4c-f9db-4f71-9b59-bdb953485553" />
+</p>
+
 
 ## What I Learned
 
