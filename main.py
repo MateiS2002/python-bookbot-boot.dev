@@ -9,10 +9,14 @@ def main():
 
     path_argument = sys.argv[1]
 
+    try:
+        book_string = get_book_text(path_argument)
+    except FileNotFoundError:
+        print("Invalid file path, no txt file found")
+        sys.exit(1)
+
     print("============ BOOKBOT ============")
     print(f"Analyzing book found at {path_argument}")
-
-    book_string = get_book_text(path_argument)
 
     print("----------- Word Count ----------")
     print(f"Found {get_num_words(book_string)} total words")
